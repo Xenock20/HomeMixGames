@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  font-size: 1rem;
+  display: grid;
+  justify-content: center;
+  min-height: 99vh;
+}
+
+.cont{
+  display: grid;
+  position: relative;
+  top: 5px;
+}
+
+section{
+  height: 75px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+div{
+  height: 75px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+dialog{
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MixGames</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+  <!-- minify -->
+  <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+  <!-- latest -->
+  <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+  <!-- core style only -->
+  <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+
+  <style>
+    html, body, pre, code, kbd, samp {
+      font-family: 'Press Start 2P', cursive;
+    }
+  </style>
+</head>
+<body class="nes-container is-dark">
+  <div class="cont">
+    <h1>Mix<b class="nes-text is-primary">GAMES</b></h1>
+
+    <div>
+      <a class="nes-btn is-primary" href="#">Trivia Musical</a>
+    </div>
+    <div>
+      <a class="nes-btn is-success" href="#">Emoji Run</a>
+    </div>
+    <div>
+      <a class="nes-btn is-error" href="#">Game Space</a>
+    </div>
+
+    <section>
+      <button type="button" class="nes-btn is-warning" onclick="document.getElementById('dialog-default').showModal();">
+        CREDITS
+      </button>
+      <dialog class="nes-dialog" id="dialog-default">
+        <form method="dialog">
+          <h1 class="title nes-text is-success">Creditos</h1>
+          <span>Diseñador: <p>Valentin Arrigoni</p></span><br/>
+          <span>Programador de TriviaMusical: <p>Federico Saboredo</p></span><br/>
+          <span>Programador de Emoji Run: <p>Tobias Molina</p></span><br/>
+          <span>Programador de GameSpace: <p>Alejandro Gomez</p></span>
+          <menu class="dialog-menu">
+            <button class="nes-btn is-error" id="close">X</button>
+          </menu>
+        </form>
+      </dialog>
+    </section>
+  </div>
+</body>
+</html>
